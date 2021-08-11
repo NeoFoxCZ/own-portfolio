@@ -1,0 +1,25 @@
+.left-menu
+  display: flex
+  flex-direction: column
+  max-width: 100px
+  position: fixed
+  left: 0
+  height: 100%
+
+  &__image
+    max-width: 55px
+    margin: 25px
+
+  &__item
+    display: flex
+    align-items: center
+    writing-mode: sideways-lr
+    margin: 20px 0
+    text-decoration: none
+    color: black
+    cursor: pointer
+    transition: all .2s
+
+    &:hover
+      color: #f03f6f
+
